@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP BOLETIN</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="./img/incap.png" alt=""   width="150" height="150"/> 
+        <h1>BOLETIN DE NOTAS </h1>
+    </div>
+    <br><br>
+    <form action="boletin.php"  method="post">
+        <table border="2" width="80%">
+            <tr><th>NOMBRE:</th><td><input type="text" name="nomb" size="30"></td></tr>
+            <tr><th>CURSO:</th><td><input type="text" name="curso" size="30"></td></tr>
+            <tr><th>NOTA1:</th><td><input type="text" name="nota1" size="10"></td></tr>
+            <tr><th>NOTA2:</th><td><input type="text" name="nota2" size="30"></td></tr>
+            <tr><th>NOTA3:</th><td><input type="text" name="nota3" size="30"></td></tr>
+            <tr><th>DEFINITIVA:</th><td><input type="text" size="10" disabled></td></tr>
+            <!-- secciones de botones del formulario -->
+            <tr><th><input type="submit" value="REPORTE"></th><th><input type="reset" value="BORRAR"></th></tr>
+        </table>
+    </form>
+</body>
+</html>

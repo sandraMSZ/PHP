@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO EQUIPO </title>
+</head>
+<body style="background-color: aqua;">
+    <div style="text-align: center;">
+        <h1>DANTOS BASICOS DEPORTISTA BASQUETBALL</h1>
+        </div>
+        <br><br>
+        <center>
+        <form action="deporte.php" method="post">
+            <table border="2"width="80%">
+                <tr><th>NOMBRE:</th><td><input type="text"size="30" name="nombre"></td></tr>
+                <tr><th>peso(KG):</th><td><input type="text"size="30" name="peso"></td></tr>
+                <tr><th>ALTURA(MTS):</th><td><input type="text"size="30" name="altura"></td></tr>
+                <tr><th>EDAD:</th><td><input type="text"size="30" name="edad"></td></tr>
+                <tr><th>SELECCIONE ESCOLARIDAD:</th><td> <select name="codescola" id="">
+                    <option value="1">PRIMARIA</option>
+                    <option value="2">BACHILLERATO</option>
+                    <option value="3">UNIVERSIDAD</option>
+
+                </select></td></tr>
+                
+            
+            <!--seccion de botones formulario-->
+            <tr><th><input type="submit" value="reporte"></th><th><input type="reset" value="reset"value="BORRAR"></th></tr>
+            </table>
+        </form>
+        </center>
+</body>
+</html>
